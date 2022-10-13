@@ -5,6 +5,6 @@ use App\Http\Controllers\ProfController;
 
 
 Route::get('/',[ProfController::class,'index']);
-Route::get('/materia/create',[ProfController::class,'create']);
+Route::get('/prof/create',[ProfController::class,'create']);
 
 

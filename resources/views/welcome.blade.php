@@ -13,7 +13,7 @@
 <div id="prof-container" class="col-md-12">
     <h2>Professores</h2>
     <p>Professores cadastrados</p>
-    <div id="cards-conteiner" class="row">
+    <div id="cards-container" class="row">
         @foreach($profs as $prof)
         <div class="card col-md-3">
             <img src="/img/guarana.png" alt="{{ $prof->name }}">

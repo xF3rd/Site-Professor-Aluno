@@ -17,6 +17,6 @@ class ProfController extends Controller
 
 
     public function create() {
-        return view('materia.create');
+        return view('prof.create');
     }
 }

@@ -13,7 +13,7 @@
        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
        <!-- CSS padrao-->
-       <link rel="stylesheet" href="/css/styles.css">
+       <link rel="stylesheet" href="css/styles.css">
        <script src="/js/scripts.js"></script>
 
     </head>
@@ -21,7 +21,7 @@
         <header>
            <nav class="navbar navbar-expand-lg navbar-light">
             <div class="collapse navbar-collapse" id="navbar">
-                <a href="" class="navbar-brand">
+                <a href="/" class="navbar-brand">
                     <img src="/img/globe.svg" alt="Aluno Professor">
                 </a>
                 <ul class="navbar-nav">
@@ -29,10 +29,10 @@
                         <a href="/" class="nav-link">Alunos</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/" class="nav-link">Professores</a>
+                        <a href="/prof/create" class="nav-link">Professores</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/materia/create" class="nav-link">Materia</a>
+                        <a href="/" class="nav-link">Materia</a>
                     </li>
                 </ul>
             </div>
